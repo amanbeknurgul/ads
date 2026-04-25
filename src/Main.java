@@ -310,7 +310,6 @@ class MyLinkedList<T> {
 public class Main {
     public static void main(String[] args) {
         MyComparator<Integer> intComp = (a, b) -> a - b;
-
         System.out.println("ARRAYLIST DEMO");
 
         MyArrayList<Integer> arr = new MyArrayList<>();
